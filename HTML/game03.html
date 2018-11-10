@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>game03</title>
+        <link rel="stylesheet" href="../styles.css">
+        <script src="../JS/public.js"></script>
+        <script src="../JS/game03.js"></script>
+    </head>
+    <body>
+        <audio src="../audio/music.mp3" autoplay loop></audio>
+        <div class="gameTitle">
+            <h1>방법 3. 친구랑 나눠먹기</h1>
+            <p>친구랑 양심껏 나눠먹기. <br />
+                클릭하여 나와 친구의 오이를 나눕니다!</p>
+        </div>
+        <div class="subTitle">
+            <p>오이의 갯수</p>
+            <h1 id="count">0 개</h1>
+        </div>
+        <div class="friend">
+            <p>친구의 오이</p>
+            <h1 id="friend_cucumber">0 개</h1>
+        </div>
+        <div class="mine">
+            <p>내 오이</p>
+            <h1 id="mine_cucumber">0 개</h1>
+        </div>
+        <canvas id="canvas" width="800" height="600">
+        </canvas>
+        
+        <button id="decision" onclick="decision()">결정</button>
+        <img class="goBack" src="../img/backButton.png" onclick="goBack()" />
+    </body>
+</html>

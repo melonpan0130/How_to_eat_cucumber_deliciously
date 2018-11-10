@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>game02</title>
+        <link rel="stylesheet" href="../styles.css">
+        <script src="../JS/public.js"></script>
+        <script src="../JS/game02.js"></script>
+    </head>
+    <body>
+        <audio src="../audio/music.mp3" autoplay loop></audio>
+        <div class="gameTitle">
+            <h1>방법 2. 샐러드에 넣기</h1>
+            <p>감자 샐러드에 오이를 넣어주세요!</p>
+        </div>
+        <canvas id="canvas" width="800" height="600">
+        </canvas>
+        <!--<img id="game02_click" src="../img/game02_img/click.png">-->
+        <div class="subTitle">
+            <p>오이</p>
+            <h1 id="score"></h1>
+        </div>
+        <div class="timer">
+            <p>제한 시간</p>
+            <h1 id="seconds">10:00</h1>
+        </div>
+        
+        <img class="goBack" src="../img/backButton.png" onclick="goBack()" />
+    </body>
+</html>

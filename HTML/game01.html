@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>game01</title>
+        <link rel="stylesheet" href="../styles.css">
+        <script src="../JS/public.js"></script>
+        <script src="../JS/game01.js"></script>
+    </head>
+    <body>
+        <audio src="../audio/music.mp3" autoplay loop></audio>
+        <div class="gameTitle">
+            <h1>방법 1. 오이팩하기</h1>
+            <p>모든 오이를 올려주세요!</p>
+        </div>
+        <img id="face" src='../img/game01_img/face.png'/>
+        <canvas id="canvas" width="800" height="600">
+        </canvas>
+        <div class="count_cu">
+            <p>남은 오이의 갯수</p>
+            <h1 id="left_cu">0 개</h1>
+        </div>
+        <img class="goBack" src="../img/backButton.png" onclick="goBack()" />
+    </body>
+</html>

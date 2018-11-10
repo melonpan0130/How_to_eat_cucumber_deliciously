@@ -1,0 +1,212 @@
+html {
+    background-color: rgb(169, 209, 142);
+    color: rgb(56, 87, 35);
+    font-family: "210 맨발의청춘";
+}
+
+button {
+    font-family: "210 맨발의청춘";
+    font-weight: lighter;
+    text-align: center;
+    background-color: rgb(84, 130, 53);
+    margin: 10px;
+	overflow:hidden;
+	border:0;
+    cursor:pointer !important; cursor:pointer;
+    border-radius: 50px;
+    font-size: 28px;
+    padding: 25px 60px;
+    color: rgb(226, 240, 217);
+}
+
+#face{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    z-index: -1;
+}
+
+.goBack { 
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 66px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.left {
+    text-align: left;
+    margin: 0px;
+    position: relative;
+    padding: 0 0 20px 50px;
+}
+
+#cucumber {
+    width: 150px; 
+    height: 150px;
+    position: relative;
+    top: 50px;
+}
+
+.games a {
+    display: table;
+    margin: 0 auto;
+}
+
+.games button {
+    width: 19.6cm;
+}
+
+.gameTitle {
+    padding: 20px;
+    color: rgb(226, 240, 217);
+    font-weight: lighter;
+    background-color: rgb(84, 130, 53);
+    border-radius: 40px;
+    display: table-cell;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.gameTitle h1 {
+    font-weight: lighter;
+}
+
+canvas {
+    display: table;
+    margin: 30px auto;
+}
+
+/* game01 */
+.Bar {
+    position: relative;
+}
+
+.bar {
+    background-color: white;
+    width: 300px; 
+    height: 30px;
+    border: solid rgb(7, 77, 97) 3px;
+    border-radius: 10px;
+}
+
+.bar_fill {
+    background-color: rgb(184, 47, 67);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    width: 100px;
+    height: 30px;
+}
+
+.Bar p {
+    position: absolute;
+    left: 90px;
+}
+
+.bar_line {
+     border-right: dotted rgb(7, 77, 97) 3px;
+}
+
+/* game02 */
+.subTitle {
+    padding: 15px;
+    color: rgb(226, 240, 217);
+    font-weight: lighter;
+    font-size: 20px;
+    background-color: rgb(84, 130, 53);
+    border-radius: 30px;
+    display: table-cell;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    float: left;
+}
+
+.subTitle h1 {
+    font-weight: lighter;
+}
+
+.timer {
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    color: rgb(226, 240, 217);
+    font-weight: lighter;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(84, 130, 53);
+    border-radius: 40px;
+    position: fixed;
+    bottom: 100px;
+    right: 60px;
+}
+
+/* game03 */
+.friend, .mine {
+    width: 100px;
+    height: 90px;
+    padding: 20px;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 40px;
+    position: fixed;
+}
+
+.friend h1, .mine h1 {
+    font-weight: lighter;
+}
+
+.friend {
+    background-color: rgb(232, 234, 112);
+    color: rgb(124, 135, 52);
+    border: dotted 5px rgb(124, 135, 52);
+    position: fixed;
+    top: 500px;
+    left: 250px;
+}
+
+.mine {
+    background-color: #ffffff;
+    color: rgb(40, 122, 142);
+    border: dotted 5px rgb(40, 122, 142);
+    position: fixed;
+    top: 500px;
+    right: 250px;
+}
+
+#decision {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    background-color: rgb(197, 90, 17);
+    border: solid 3px rgb(132, 60, 12);
+}
+
+/* game04 */
+.count_cu {
+    height: 90px;
+    padding: 20px;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 40px;
+    position: fixed;
+    background-color: #ffffff;
+    color: rgb(40, 122, 142);
+    border: dotted 5px rgb(40, 122, 142);
+    position: fixed;
+    top: 100px;
+    right: 200px;
+}
